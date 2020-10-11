@@ -105,7 +105,7 @@ class {0} : public QWidget
 {
 Q_OBJECT
 private:
-#ifdef
+#ifdef {2}_LOADABLE
     Ui::{0} *ui;
 #endif
 
